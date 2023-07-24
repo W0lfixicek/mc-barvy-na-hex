@@ -1,2 +1,2 @@
-# mc-barvy-na-hex
-Převodník Minecraft barev na HEX barvy.
+# Převodník Minecraft barev na HEX barvy.
+
