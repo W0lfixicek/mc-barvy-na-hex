@@ -3,7 +3,7 @@ Vytvořil jsem menší JavaScriptovou aplikaci na převod Minecraftových barev 
 Projekt si můžeš sáthnout a upravit podle sebe.
 
 # Ukázka
-Ukázku je možné vidět [zde](https://z1ppysek.majnex.eu/mc-colors-to-hex.html)
+Ukázku je možné vidět [zde](https://z1ppysek.majnex.eu/mc-colors-to-hex.html).
 
 # Podpora
-Budu moc rád, když mě podpoříš, třeba tím, že mi [koupíš kafčo]((https://www.buymeacoffee.com/z1ppysek)) 
+Budu moc rád, když mě podpoříš, třeba tím, že mi [koupíš kafčo](https://www.buymeacoffee.com/z1ppysek) 
