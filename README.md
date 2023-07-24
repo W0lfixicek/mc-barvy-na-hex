@@ -1,6 +1,6 @@
 # Převodník Minecraft barev na HEX barvy.
 Vytvořil jsem menší JavaScriptovou aplikaci na převod Minecraftových barev na HEX barvy.
-Projekt si můžeš sáthnout a upravit podle sebe.
+Projekt si můžeš stáhnout a upravit podle sebe.
 
 # Ukázka
 Ukázku je možné vidět [zde](https://z1ppysek.majnex.eu/mc-colors-to-hex.html).
