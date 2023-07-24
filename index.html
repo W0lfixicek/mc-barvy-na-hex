@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="cs-cz">
+
+<head>
+    <title>Převodník Minecraft barev na HEX</title>
+    <meta charset="utf-8" />
+
+    <!--| BootStrap |-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="text-center mt-3">Minecraft barvy na HEX barvy</h1>
+    <p class="text-center">Vytvořil <a href="https://z1ppysek.majnex.eu" target="_blank">Z1ppysek</a></p>
+    <div class="d-flex flex-column container card" style="max-width:400px;margin-top:50px;border:0">
+        <div class="mb-3 mt-3">
+            <select class="form-select" id="minecraftColorSelect">
+            <option value="vychozi" selected>Vyberte barvu...</option>
+            <option value="darkred">Tmavě červená</option>
+            <option value="red">Červená</option>
+            <option value="orange">Oranžová</option>
+            <option value="yellow">Žlutá</option>
+            <option value="darkgreen">Tmavě zelená</option>
+            <option value="green">Zelená</option>
+            <option value="darkaqua">Tmavě aqua</option>
+            <option value="aqua">Aqua</option>
+            <option value="darkblue">Tmavě modrá</option>
+            <option value="blue">Modrá</option>
+            <option value="purple">Fialová</option>
+            <option value="pink">Růžová</option>
+            <option value="white">Bílá</option>
+            <option value="gray">Šedá</option>
+            <option value="darkgray">Tmavě šedá</option>
+            <option value="black">Černá</option>
+        </select>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" placeholder="#ffffff" value="#FFFFFF" id="hexCodeDisplay" disabled>
+        </div>
+        <div class="mb-3">
+            <input id="colorDisplay" class="color-input" disabled>
+        </div>
+
+        <script src="scripts.js"></script>
+</body>
+</html>
